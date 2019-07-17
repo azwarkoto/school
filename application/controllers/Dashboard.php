@@ -25,6 +25,7 @@ class Dashboard extends CI_Controller
 
   public function identitas_saya()
   {
-    $this->template->load('template','dashboard/identitas_saya');
+    $data['me'] = $this->db->get_where('siswa',['nis' => $this->session->userdata('username')])->row();
+    $this->template->load('template','dashboard/identitas_saya',$data);
   }
 }

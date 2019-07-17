@@ -26,16 +26,16 @@
           </div>
         </div>
       </div>
-          <div class="card-footer">
-            <div class="form-group">
-              <button class="btn btn-sm btn-success btn-icon-split">
-                <span class="icon text-white-50">
-                  <i class="fas fa-save"></i>
-                </span>
-                <span class="text">Simpan</span>
-              </button>
-            </div>
-          </div>
-          </form>
+      <div class="card-footer">
+        <div class="form-group">
+          <button class="btn btn-sm btn-success btn-icon-split">
+            <span class="icon text-white-50">
+              <i class="fas fa-save"></i>
+            </span>
+            <span class="text">Simpan</span>
+          </button>
+        </div>
+      </div>
+      </form>
     </div>
 </div> 
