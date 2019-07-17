@@ -152,7 +152,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
   function is_login()
   {
     $CI =& get_instance();
-    if (!$CI->session->has_userdata('user_craport_identifer') && !$CI->session->has_userdata('username') ) {
+    if (!$CI->session->has_userdata('user_dinasti_identifer') && !$CI->session->has_userdata('username') ) {
       redirect('auth');
     }
   }
