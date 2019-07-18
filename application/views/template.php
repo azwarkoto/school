@@ -46,7 +46,7 @@
     <?php
     $usef = $this->db->get_where('user', ['username' => $this->session->userdata('username')])->row();
     $userd = $this->db->get_where('siswa', ['nis' => $this->session->userdata('username')])->row();;
-    ($usef ? $user = $userf :  $user = $userd);
+    (isset($usef) ? $user = $usef :  $user = $userd);
     ?>
     <!-- Page Wrapper -->
     <div id="wrapper">
